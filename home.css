@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fffdfa;
+    font-family: monospace;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+  
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+/* Style the topnav links */
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+/* Change color on hover */
+  
+.topnav a:hover {
+    background-color: orange;
+    color: black;
+  }
+
+  /* Image */
+img {
+    border-image: none;
+    width: 30%;
+    padding: 20px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+  }
+
+/* Add a card effect for articles */
+.card {
+    background-color: #fffdfa;
+    padding: 20px;
+    margin-top: 20px;
+    height: 15%;
+  }
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #dddddd;
+    margin-top: 15%;
+
+  }
+
+.footer a {
+    padding: 30px;
+}
+
